@@ -95,7 +95,6 @@ if (selectedTheme) {
   themeButton.classList[selectedIcon === 'bxs-moon' ? 'add' : 'remove'](iconTheme)
 }
 
-
 themeButton.addEventListener('click', () => {
     
     document.body.classList.toggle(darkTheme)
